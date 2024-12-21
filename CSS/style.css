@@ -1,0 +1,482 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+
+.logo{
+    width: 80px;
+    height: 60px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+    margin-right: 10px;
+}
+.navbar-nav li a{
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+}
+.navbar-brand{
+    margin-left: 40px;
+}
+.navbar{
+    background: #2064a9;
+}
+
+.chapter img{
+    width: 60px;
+}
+
+.banner img{ 
+   width: 100%;
+   height: 500px;
+}
+.line{
+    text-align: center;
+    padding: 20px;
+}
+.line h1{
+   
+    font-size: 1.8em;
+}
+.line h1 span{
+color: rgb(218, 18, 18);
+}
+.line h2{
+    font-size: 1.2em;
+    color: #555;
+}
+.box{
+    display: flex;
+    padding : 20px;
+    gap: 15px;
+    justify-content: space-between;
+}
+.vision{
+     background: rgb(239, 56, 56);
+     flex: 1;
+     border: 1px solid ;
+     border-radius: 10px;
+}
+.vision h2{
+    margin-bottom: 10px;
+    text-align: center;  
+}
+.vision p{
+    text-align: center;
+width: auto;
+color: white;
+margin-top: 15px;
+font-weight: 100;
+}
+.mission h2{
+  color: rgb(10, 10, 93);
+  margin-bottom: 10px;
+  text-align: center;
+}
+.mission p{
+    color: white;
+    text-align: center;
+    margin-top: -3px;
+    font-weight: 100;
+    font-size: 14px;
+}
+.mission{
+    background: grey;
+    flex: 1;
+     border: 1px solid ;
+     border-radius: 10px;
+}
+
+.chapter{
+    text-align: center;
+    padding: 20px;
+}
+.chapter h2{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 20px;
+}
+.chapter img{
+   width: 80px;
+   height: auto;
+   margin: 5px;
+}
+
+ 
+/*---------------------------- footer -------------------------------*/
+footer{
+    background:#0d4985;
+    color: white;
+    padding: 20px;
+}
+.footer_info{
+    
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+   padding-right: 100px; 
+}
+.footer-width{
+    flex:1;
+    min-width:310px;
+}
+.footer-width h3{
+    margin-bottom: 10px;
+}
+.footer-width ul{
+    list-style: none;
+    padding: 0px;
+}
+.footer-width ul li{
+   margin-bottom: 8px;
+}
+.footer-width ul li a{
+   text-decoration: none;
+   color: white;
+ }
+ .footer-width ul li a:hover{
+    text-decoration: underline;
+ }
+ .footer-width li{
+    list-style: none;
+    margin-bottom: 8px;
+ }
+ .footer-width li a i{
+    color: white;
+    font-size: 1.5em;
+ }
+
+ footer{
+    text-align: center;
+    flex-direction: column;
+ }
+ 
+ 
+
+/* ---------------------footer end*/
+/* ABOUT PAGE START -----------------------------*/
+.heading{
+    text-align: center;
+    margin:20px ;
+}
+.heading h1{
+    font-size: 2.5rem;
+}
+.col-md-8 p{
+    justify-content: center;
+    word-spacing: 2px;
+}
+
+.about,
+.aboutpic{
+    background-image: url(../IMAGES/AMG_5338.jpeg);
+    height: 650px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ABOUT PAGE END -----------------------------*/
+
+/* program start --------------------------------*/
+
+
+.gp img{
+    
+   width: 100%;
+   height: 400px;
+}
+
+.gpbox h2{
+    margin-top: 40px;
+    text-align: center;
+    font-family:'poppins' sans-serif;
+    font-weight: 10px;
+    color: #a81036;
+    
+}
+.cource  table{
+
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0; 
+}
+.cource td{
+    border: 3px solid #4f4c4c;
+    padding: 10px;
+    text-align: center;
+}
+.cource th{
+    border: 3px solid #4f4c4c;
+    padding: 10px;
+    text-align: center;
+}
+
+.pg h2{
+    margin-top: 50px;
+    text-align: center;
+    font-family:'poppins' sans-serif;
+    font-weight: 10px;
+    color:#a81036;
+}
+.pgbox  table{
+
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0; 
+    margin-bottom: 50px;
+}
+.pgbox td{
+    border: 3px solid #4f4c4c;
+    padding: 10px;
+    text-align: center;
+}
+.pgbox th{
+    border: 3px solid #4f4c4c;
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* program end */
+
+
+/* campus start */
+.c h1 {
+    text-align: center;
+    font-weight: 10px;
+    font-family: 'poppins' sans-serif;
+    margin-top: 8px;
+    font-size: 24px;
+}
+.c img{
+    width: 60%;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+margin-top: 10px;
+
+}
+.c p{
+    justify-content: center;
+    padding: 60px;
+    margin-top: -37px;
+    word-spacing: 2px;
+    font-size: 14px;
+
+}
+.c1 h1{
+    text-align: center;
+    font-weight: 10px;
+    font-family: 'poppins' sans-serif;
+    margin-top: -24px;
+    font-size: 24px;
+}
+
+.c1 img{
+    width: 60%;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+margin-top: 10px;
+}
+.c1 p{
+    justify-content: center;
+    padding: 60px;
+    margin-top: -37px;
+    word-spacing: 2px;
+    font-size: 14px; 
+}
+.c2 h1 {
+    text-align: center;
+    font-weight: 10px;
+    font-family: 'poppins' sans-serif;
+    margin-top: -24px;
+    font-size: 24px;
+}
+.c2 img{
+    width: 60%;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+margin-top: 10px;
+}
+.c2 p{
+    justify-content: center;
+    padding: 60px;
+    margin-top: -37px;
+    word-spacing: 2px;
+    font-size: 14px; 
+}
+.c3 h1{
+    text-align: center;
+    font-weight: 10px;
+    font-family: 'poppins' sans-serif;
+    margin-top: -35px;
+    font-size: 24px;
+}
+.c3 img{
+    width: 60%;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+margin-top: 10px;
+}
+.c4 h1{
+    text-align: center;
+    font-weight: 10px;
+    font-family: 'poppins' sans-serif;
+    margin-top: -24px;
+    font-size: 24px;
+}
+.c4 img{
+    width: 60%;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+margin-top: 10px;
+}
+.c4 p{
+    justify-content: center;
+    padding: 60px;
+    margin-top: -37px;
+    word-spacing: 2px;
+    font-size: 14px; 
+}
+.c5 h1{
+    text-align: center;
+    font-weight: 10px;
+    font-family: 'poppins' sans-serif;
+    margin-top: 35px;
+    font-size: 24px;
+}
+.c5 img{
+    width: 60%;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+margin-top: 17px;
+}
+.c6 h1{
+    text-align: center;
+    font-weight: 10px;
+    font-family: 'poppins' sans-serif;
+    margin-top: 35px;
+    font-size: 24px;
+}
+.c6 img{
+    width: 60%;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+margin-top: 14px;
+margin-bottom: 40px;
+}
+
+/* campus end */
+
+/* placement start */
+.p h1{
+    text-align: center;
+    font-weight: 300;
+    font-family: sans-serif 'poppins';
+    margin-top: 10px;
+}
+.p span{
+    color: red;
+}
+.p img{
+    background-size: cover;
+    background-position: center;
+   width: 100%;
+   height: 200px;
+    padding: 10px;
+}
+.p p{
+    justify-content: center;
+    font-size: 14px;
+    word-spacing: 2px;
+    padding: 30px;
+    margin-top: -15px;
+}
+.record h1{
+    font-weight: 100;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-style: oblique;
+    color: cornflowerblue;
+}
+.record img{
+    width: 70%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+margin-top: 14px;
+}
+
+.record1 h1{
+    font-weight: 100;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-style: oblique;
+    color: cornflowerblue;
+    margin-top: 25px;
+}
+.record1 img{
+    width: 70%;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+margin-top: 14px;
+
+}
+.company h1{
+    font-weight: 100;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-style: inherit;
+    color: #a00e25;
+    margin-top: 25px;
+}
+.company1 img{
+    width: 150px;
+    height: 80px;
+    margin-left: 12px;
+    margin-top: 8px;
+    
+}
+
+/* placement page end */
+
+
+
+/* contact page start */
+
+.a{
+    text-align: center;
+    color: skyblue;
+    background: #0d4985;
+}
+
+
+
+
+
+/* contact page end */
